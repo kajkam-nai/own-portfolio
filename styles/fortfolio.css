@@ -1,0 +1,76 @@
+
+body{
+    /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 130px;
+    
+}
+nav > ul{
+    align-items: center;
+}
+nav> ul > li{
+    display: inline;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.orange{
+    color: #FD6E0A;
+}
+.name{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.darkTwo{
+    color: #474747;
+}
+.buttonPrimary{
+    background-color: #FD6E0A;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 19px 35px;
+}
+.orangePowder{
+    background-color: #FFF8F3;
+}
+.contact{
+    color: #FD6E0A;
+    padding: 19px 35px;
+    border:1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sHeader{
+    margin-left: 60px;
+}
+.banner{
+    padding:30px 30px 30px 130px;
+    display: flex;
+    align-items: center;
+}
+.bannerGreet{
+    color: #474747;
+    font-size: large;
+    font-weight: bolder;
+}
+.banner .profilePicture{
+     width: 500px;
+     
+}
