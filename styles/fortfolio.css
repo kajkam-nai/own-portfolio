@@ -7,7 +7,6 @@ body{
   font-style: normal;
 }
 
-
 header > nav{
     display: flex;
     justify-content: space-between;
@@ -48,6 +47,10 @@ nav a{
 }
 .orangePowder{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 }
 .contact{
     color: #FD6E0A;
@@ -56,21 +59,96 @@ nav a{
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+    margin-left: 15px;
 }
-.sHeader{
-    margin-left: 60px;
-}
-.banner{
-    padding:30px 30px 30px 130px;
+
+
+ .banner{
+    padding:30px 30px 0px 130px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
 .bannerGreet{
     color: #474747;
-    font-size: large;
-    font-weight: bolder;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+
 }
 .banner .profilePicture{
      width: 500px;
+     padding-bottom: 0;
      
+}
+.name{
+    margin-top: 1px;
+    margin-bottom: 30px;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.bannerText{
+    max-width: 500px;
+    color: #757575;
+    font-size: 18px;
+    
+} 
+.about{
+    
+    padding: 130px;
+    background-color: #FFF8F3;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    margin: 80px 130px;
+    font-size: 17px;
+}
+.dark{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.content{
+    color: #757575;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-value{
+    margin-top: 0;
+
+}
+
+
+.what-content{
+    text-align: center;
+    padding: 5px 250px;
+    font-size: 17px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-around;
+    padding: 130px;
+    margin: 10px 20px;
+}
+
+.skill-container{
+    border: 0;
+    box-shadow: 10px 10px 20px lightgray;
+    width: 377px;
+    height: 377px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    color: #757575;
+    padding: 0 20px;
 }
