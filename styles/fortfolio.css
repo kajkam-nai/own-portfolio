@@ -114,10 +114,10 @@ nav a{
 .content{
     color: #757575;
 }
-.main{
+/* .main{
     max-width: 1140px;
     margin: 0 auto;
-}
+} */
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -151,4 +151,54 @@ nav a{
     margin-left: 10px;
     color: #757575;
     padding: 0 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+
+.horizontal{
+    display: flex;
+}
+.left{
+    margin-left: 60px;
+    margin-right: 50px;
+    width: 700px;
+
+}
+.right{
+    margin-right: 60px;
+    width: 700px;
+}
+.system{
+    color: #757575;
+}
+.time{
+    color: #474747;
+}
+.center{
+    text-align: center;
+
+}
+.easy{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.flex{
+    display: flex;
+    background-color: #FFF8F3;
+}
+.footer-content{
+    width: 580px;
+}
+.footer-left{
+    margin-left: 100px;
+}
+.footer-right{
+    margin-left: 50px;
 }
